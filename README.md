@@ -5,6 +5,10 @@
 Now you can define the "must fill fields" by language.
 Add the Language ID in front, before the field.
 
+![](admin2.png)
+
+![](admin1.png)
+
 Example: (required in all languages)
 
     oxuser__oxstreet
@@ -13,7 +17,8 @@ Example: (required only in language 1 (English). This can exists more often for 
 
     1|oxuser__oxstreet
 
-![](admin1.png)
+Example:
+![](admin3.png)
 
 ## Install
 
