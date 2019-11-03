@@ -13,9 +13,9 @@ class Config extends Config_parent
      *
      * @return array
      */
-    public function getConfigParam( $sParamName )
+    public function getConfigParam( $sParamName, $default = null )
     {
-        $Ret = parent::getConfigParam( $sParamName );
+        $Ret = parent::getConfigParam( $sParamName, $default );
         if($sParamName=="aMustFillFields")
         {
             //only change this parameter
